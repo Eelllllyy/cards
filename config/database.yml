@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  lc_collate: ru_RU.UTF8
+  ctype: ru_RU.UTF-8
+  template: template0
+  pool: <%= ENV.fetch('RAILS_MAX_THREADS') { 5 } %>
+  username: <%= ENV.fetch('DB_USERNAME') %>
+  password: <%= ENV.fetch('DB_PASSWORD') %>
+  port: <%= ENV.fetch('DB_PORT', 5432) %>
+
+development:
+  <<: *default
+  database: ny_2022_development
+
+test:
+  <<: *default
+  database: ny_2022_test
