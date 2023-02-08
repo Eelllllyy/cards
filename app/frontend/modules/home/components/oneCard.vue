@@ -4,10 +4,10 @@
     class="card"
   >
     <div class="front">
-      <img 
-        :src="card.image_one.url"
+      <!-- <img 
+        :src="card.image_one?.url"
         alt="avatar"
-      >
+      > -->
     </div>
     <div
       v-if="card.id !== currentId"
@@ -24,7 +24,7 @@
   >
     <img
       class="img"
-      :src="card.image_two.url"
+      :src="card.image_two?.url"
       alt="avatar"
     > 
   </div>
@@ -54,6 +54,8 @@ const props = defineProps({
   backface-visibility: hidden;
   position: absolute;
   transition: transform .6s linear;
+  background-color: #323a3ae1;
+  border-radius: 14px;
 }
 .front img{
   height: 100%;

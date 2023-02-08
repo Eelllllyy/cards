@@ -13,7 +13,7 @@
           />
         </div>
         <div v-else>
-          <img src="../assets/images/adt.svg">
+          <img src="...">
         </div>
       </article>
       <article class="decription">
