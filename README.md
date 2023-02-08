@@ -11,10 +11,10 @@
 Secret project with login by the code and for team interaction by the cards you can turn over
 
 ### Login page
-![login]()
+![login](https://github.com/Eelllllyy/cards/blob/master/app/frontend/modules/home/assets/screenshots/wrapper.png)
 
 ### Main page with current user turned ower card
-![main]()
+![main](https://github.com/Eelllllyy/cards/blob/master/app/frontend/modules/home/assets/screenshots/main_page.png)
 
 _Creation date:_
 >8 / 02 / 2023
